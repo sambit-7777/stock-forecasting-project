@@ -1,0 +1,18 @@
+Time Series Stock Forecasting Report
+=====================================
+
+Models evaluated: ARIMA, SARIMA, Prophet, LSTM
+
+RMSE Results:
+ - ARIMA: 69.2944
+ - SARIMA: 55.1133
+ - Prophet: 38.3315
+ - LSTM: 5.9821
+
+Key Findings:
+1. ARIMA performed the worst with RMSE ~69.
+2. SARIMA improved results slightly (RMSE ~55).
+3. Prophet captured trend/seasonality well (RMSE ~38).
+4. LSTM achieved the best performance with RMSE ~6, showing the power of deep learning.
+
+Conclusion: LSTM outperformed traditional models for this dataset.
